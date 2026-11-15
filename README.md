@@ -33,5 +33,7 @@ Project HEIMDALL is an advanced AI-driven early warning dashboard designed for S
    ```bash
    pip install -r requirements.txt
 3. Run the FastAPI Backend:
-uvicorn app:app --reload --port 8000
+   ```bash
+   uvicorn app:app --reload --port 8000
+   ```
 4. Open index.html in your browser (or serve it via a live server). The dashboard will automatically connect to the live FastAPI backend and render real-time LSTM predictions and Philippine MODIS thermal hotspots.
