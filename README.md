@@ -27,7 +27,7 @@ Project HEIMDALL is an advanced AI-driven early warning dashboard designed for S
 * **Statistical Validation:** Evaluated using Pearson correlation ($r = 0.8161, p < 0.001$), OLS regression, and Mann-Kendall trend tests, confirming periodic seasonal cycles rather than long-term linear drift.
 
 ## 🚀 Features
-1. **Interactive Time-Series Chart:** Visualizes historical observations alongside a 30-day forward LSTM forecast with 95% confidence intervals.
+1. **Interactive Time-Series Chart:** Visualizes historical observations alongside a 30-day forward LSTM forecast with 91% confidence intervals.
 2. **Super El Niño Stress Simulator:** Interactive sliders allowing users to simulate rainfall deficits and temperature anomalies in real-time.
 3. **Philippine Agricultural Hotspot Map:** Leaflet map rendering dynamic risk zones (Central Luzon, Cagayan Valley, Western Visayas, Bukidnon) combining MODIS LST and LSTM soil moisture outputs.
 4. **Adjustable Forecast Table:** Fully editable data grid enabling manual scenario overrides.
