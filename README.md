@@ -1,6 +1,7 @@
 # PROJECT HEIMDALL: AI-Driven Hydro-Meteorological Forecasting & Agricultural Drought Early Warning System
 
-**Author:** Engr. Carl Joseph Torres, ECE, ECT  
+**Author:** Engr. Carl Joseph Torres, ECE, ECT 
+**Live Dashboard:** [Project HEIMDALL Vercel Deployment](https://project-heimdall-nasa-spaceapps-psi.vercel.app/)
 
 ---
 
@@ -10,6 +11,12 @@ Project HEIMDALL is an advanced AI-driven early warning dashboard designed for S
 ## 🛰️ Data Sources & Acquisition
 * **NASA FLDAS (NOAHMP001):** Area-averaged hydro-meteorological time-series data (Precipitation flux, Surface air temperature, Root-zone soil moisture $0–10\text{ cm}$) extracted via **NASA Giovanni** (2023–2026).
 * **NASA MODIS (MOD11A2 v061):** 1km-resolution daytime and nighttime Land Surface Temperature (LST) statistics extracted via **NASA AppEEARS** using a custom Philippine boundary polygon.
+
+1. **NASA Giovanni (FLDAS NOAHMP001):**
+   * **Utilization:** Used as the primary training and inference feed for our Long Short-Term Memory (LSTM) deep learning model to evaluate baseline hydro-meteorological coupling (Pearson $r = 0.8161$) and execute 30-day forward drought predictions.
+
+2. **NASA AppEEARS (MODIS MOD11A2 v061):**
+   * **Utilization:** Used as a high-resolution thermal baseline to power our Philippine agricultural risk warning map, combining LST anomalies with LSTM soil moisture forecasts to pinpoint localized thermal stress hotspots in Central Luzon, Cagayan Valley, Western Visayas, and Bukidnon.
 
 ## 🧠 Machine Learning Core
 * **Model Architecture:** Long Short-Term Memory (LSTM) neural network (`project-heimdall-climate-SEAV2.keras`).
