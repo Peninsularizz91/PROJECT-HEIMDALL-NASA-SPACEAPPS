@@ -1,7 +1,6 @@
 # PROJECT HEIMDALL: AI-Driven Hydro-Meteorological Forecasting & Agricultural Drought Early Warning System
 
 **Author:** Engr. Carl Joseph Torres, ECE, ECT  
-**Degree:** BS Electronics and Communications Engineering (TUP Manila)  
 
 ---
 
